@@ -18,6 +18,12 @@ void loop()
   // now for second dot 
   digitalWrite(led1, HIGH);
   delay(600);
+  //then a bit of gap
+  digitalWrite(led1, LOW);
+  delay(300);
+  // third dot
+   digitalWrite(led1, HIGH);
+  delay(600);
 //now for the dash -
 digitalWrite(led1, HIGH);
 delay(1200);
@@ -120,7 +126,12 @@ delay(1200);
   // now for second dot 
   digitalWrite(led1, HIGH);
   delay(600);
-
+  //then a bit of gap
+  digitalWrite(led1, LOW);
+  delay(300);
+  //third dot
+ digitalWrite(led1, HIGH);
+  delay(600);
 //now more gap because I am moving to sixth letter.
 digitalWrite(led1, LOW);
 delay(1700);
