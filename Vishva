@@ -9,81 +9,137 @@ void setup()
 void loop() 
 {
  // morse code for V
-  
+  //for first dot
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  //then a bit of gap
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
+  // now for second dot 
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+//now for the dash -
+digitalWrite(led1, HIGH);
+delay(1200);
 
+//now more gap because you are moving to second letter.
+digitalWrite(led1, LOW);
+delay(1700);
+
+// from here second letter starts
   // morse code for I
-  
+  //for first dot
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  //then a bit of gap
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
+  //for second dot
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  //for third dot
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
+//now for the dash -
+digitalWrite(led1, HIGH);
+delay(1200);
+
+//now more gap because you are moving to second letter.
+digitalWrite(led1, LOW);
+delay(1700);
+
+// from here third letter starts
 
   // morse code for S
+  / //for first dot
+digitalWrite(led1, HIGH);
+delay(600); 
+//then a bit of gap
+digitalWrite(led1, LOW);
+delay(300); 
+// now for second dot 
+digitalWrite(led1, HIGH);
+delay(600);
+// again gap
+digitalWrite(led1, LOW);
+delay(300);
+//now for third dot
+digitalWrite(led1, HIGH);
+delay(600);
+// again the gap
+digitalWrite(led1, LOW);
+delay(300);
+//now for the dash -
+digitalWrite(led1, HIGH);
+delay(1200);
   
-  digitalWrite(led1, HIGH);
-  delay(1000);
-  digitalWrite(led1, LOW);
-  delay(1000);
-  digitalWrite(led1, HIGH);
-  delay(1000);
-  digitalWrite(led1, LOW);
-  delay(1000);
-  digitalWrite(led1, HIGH);
-  delay(1000);
-  digitalWrite(led1, LOW);
-  delay(1000);
-  
+  //now more gap because I am moving to fourth letter.
+digitalWrite(led1, LOW);
+delay(1700);
+
+// from here fourth letter starts
+
    // morse code for H
-   
+   //for first dot
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  // bit of gap
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
+  // second dot
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  // bit of gap
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
+  //third dot
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  //bit of gap
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
+  //fourth dot 
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  // bit of gap
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
   
+  //now for the dash -
+digitalWrite(led1, HIGH);
+delay(1200);
+
+// from here fifth letter starts
   // morse code for V
- 
-   digitalWrite(led1, HIGH);
-  delay(1000);
-  digitalWrite(led1, LOW);
-  delay(1000);
+  //for first dot
   digitalWrite(led1, HIGH);
-  delay(1000);
-  
+  delay(600);
+  //then a bit of gap
+  digitalWrite(led1, LOW);
+  delay(300);
+  // now for second dot 
+  digitalWrite(led1, HIGH);
+  delay(600);
+
+//now more gap because I am moving to sixth letter.
+digitalWrite(led1, LOW);
+delay(1700);
 
    // morse code for A
    
+//for first dot
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  //then a bit of gap
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
+  // now for second dot 
   digitalWrite(led1, HIGH);
-  delay(1000);
+  delay(600);
+  // bit of gap
   digitalWrite(led1, LOW);
-  delay(1000);
+  delay(300);
   
-
-
-
+digitalWrite(led1, LOW);
+delay(1700);
 }
